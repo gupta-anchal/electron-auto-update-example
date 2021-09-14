@@ -22,5 +22,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/w3villa-anchal/electron-auto-update-example"
+  },
+  "build": {
+    "appId": "yourappid",
+    "win": {
+      "target": "NSIS"
+    }
   }
 }
